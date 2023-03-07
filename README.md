@@ -12,8 +12,6 @@
 ### `2 - Before download check your chrome version in configs>About Chrome`
 ### `3 - unzip ChromeDriver folder `
 
-
-## Configuration
  chromedriver.exe in src/test/resources
 
 
