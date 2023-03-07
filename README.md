@@ -1,45 +1,31 @@
-# BASE TEST AUTOMATION
-
-Software and hardware requirements needed to run this automation project
-
-## Installation
+# Java + cucumber e2e challenge
 
 
+## Getting started
 
-```bash
-- Java 1.8 SDK
-- Maven
-```
+- [Java](https://www.java.com/en/)<br>
+- [Maven](https://maven.apache.org/)<br>
 
-## EXECUTION
+## Configuration
 
-```
-. In the project remove the RunTest tags in the package runner
-. to run only 1 specific test add bdd tag with @ in the package runner
+### `git clone https://github.com/thiagosouza448/e2e-challenge`
 
-. Right click and Run
+Clone the project
 
-Another form of execution
+## Commands
 
-- mvn clean
-- mvn install
-- mvn verify
-```
+### `mvn clean`
 
+Clean the maven repo
 
-## debugging INTELLIJ 
+### `mvn install`
 
-```bash
--PARAMETERS/  field command line : clean install -Dmaven.test.failure.ignore=true -Dselenide.browser=chrome
-- RUNNER / field VM Options : -DforkMode=never
-```
+Install the maven requirements
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### `mvn test`
 
-Please make sure to update tests as appropriate.
+Execute the test scenarios
 
-## License
+### `make help`
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
+Displays all options for the project's make commands
