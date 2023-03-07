@@ -6,6 +6,21 @@
 - [Java](https://www.java.com/en/)<br>
 - [Maven](https://maven.apache.org/)<br>
 
+## BEFORE RUN :
+
+### `1 - Chromedriver: https://chromedriver.chromium.org/downloads`
+### `2 - Before download check your chrome version in configs>About Chrome`
+### `3 - unzip ChromeDriver folder `
+
+
+## Configuration
+ chromedriver.exe in src/test/resources
+
+
+
+
+
+
 ## Configuration
 
 ### `git clone https://github.com/thiagosouza448/e2e-challenge`
@@ -26,6 +41,8 @@ Install the maven requirements
 
 Execute the test scenarios
 
-### `make help`
 
-Displays all options for the project's make commands
+
+
+
+
