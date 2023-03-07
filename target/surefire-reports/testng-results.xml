@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="97122" started-at="2023-03-07T00:46:42 BRT" finished-at="2023-03-07T00:48:19 BRT">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@13a5fe33]" name="feature" class="runner.RunTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="97122" started-at="2023-03-07T00:46:42 BRT" finished-at="2023-03-07T00:48:19 BRT">
+      <class name="runner.RunTest">
+        <test-method status="PASS" signature="SetConfigClass()[pri:0, instance:runner.RunTest@13a5fe33]" name="SetConfigClass" is-config="true" duration-ms="135" started-at="2023-03-07T00:46:42 BRT" finished-at="2023-03-07T00:46:43 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetConfigClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunTest@13a5fe33]" name="feature" duration-ms="96334" started-at="2023-03-07T00:46:43 BRT" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-03-07T00:48:19 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Compra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="DownClass()[pri:0, instance:runner.RunTest@13a5fe33]" name="DownClass" is-config="true" duration-ms="592" started-at="2023-03-07T00:48:19 BRT" finished-at="2023-03-07T00:48:19 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownClass -->
+      </class> <!-- runner.RunTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
